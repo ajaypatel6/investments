@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && xcopy \"C:\\Users\\Yandh\\Desktop\\investments\\front\\build\" \"C:\\Users\\Yandh\\Desktop\\investments\\back\\build\" /E/H/C/I",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
