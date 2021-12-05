@@ -1,0 +1,33 @@
+yourInvestments
+-----------------
+when you change front end just build 'npm run build'
+
+the front end runs on the server
+OK
+
+-----JUST CODE IN REACT AND WHEN YOU WANT SERVER TO DO IT THEN U CAN NPM RUN BUILD
+
+
+//I am serving react app through express server as a static page.
+https://stackoverflow.com/questions/64959159/use-xcopy-in-package-json
+-----------------
+Frontend : React
+Backend : NodeJs
+DB : postgres i think
+JEST
+
+- create build folder for backend and copy there
+https://www.youtube.com/watch?v=QBXWZPy1Zfs&ab_channel=FullstackDevelopment
+
+
+what is redux? states, am i doing this arleady?
+
+-----------------
+- black, green lettering, very high tech stonks
+
+to view all of your crypto assets as well as stocks in one platform
+- connect to some apis for the datas
+
+stonks
+
+
