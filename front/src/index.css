@@ -17,3 +17,22 @@ code {
   text-align: center;
 }
 
+.profile{
+  text-align: right;
+}
+
+.portfolio{
+  text-align: center;
+}
+
+.assetList{
+  text-align: center;
+}
+
+.asset{
+  text-align: center;
+}
+
+marketTime{
+  text-align: left;
+}
