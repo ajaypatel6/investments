@@ -1,3 +1,4 @@
+/* html, */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -7,32 +8,90 @@ body {
   color: #16c784;
   line-height: 1.5;
   font-size: 0.875rem;
+  /* margin: 0;
+  padding: 0; */
+  /* width: 100%; */
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 .name {
+  padding-top: 10px;
+  /* width: 1000px; */
   text-align: center;
 }
 
-.profile{
+.profile {
   text-align: right;
+  margin-top: 10px;
+
+  margin-right: 10px;
 }
 
-.portfolio{
+.portfolio {
   text-align: center;
+  border: 1px solid red;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1000px;
+  /* https://stackoverflow.com/questions/1709442/make-divs-height-expand-with-its-content */
+  display: flex;
+  flex-direction: column;
+  min-height: 1vh;
+  /* grows as it fills :o */
 }
 
-.assetList{
+.assetList {
   text-align: center;
+  border: 1px solid red;
 }
 
-.asset{
+.asset {
   text-align: center;
+  border: 1px solid red;
+  width: 1000px;
 }
 
-marketTime{
+.assetCategory {
+  padding-left: 1%;
+}
+
+.marketTime {
   text-align: left;
+  padding-left: 10px;
+  /* how to bring it up to profile */
+}
+
+.cryptoAssets {
+  text-align: center;
+  border: 1px solid red;
+  width: 1000px;
+}
+
+.singleCrypto {
+  height: 100px;
+  width: 1000px;
+}
+
+.stockAssets {
+  text-align: center;
+  border: 1px solid red;
+  width: 1000px;
+}
+
+.singleStock {
+  height: 100px;
+  width: 1000px;
+}
+
+.assetUpdater {
+  text-align: center;
+  border: 1px solid rgb(0, 4, 255);
+  margin-top: 50px;
+  height: 250px;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
 }
