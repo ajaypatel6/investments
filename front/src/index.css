@@ -19,6 +19,8 @@ code {
 
 .name {
   padding-top: 10px;
+  font-size: 45px;
+  font-weight: lighter;
   /* width: 1000px; */
   text-align: center;
 }
@@ -33,6 +35,9 @@ code {
 .portfolio {
   text-align: center;
   border: 1px solid red;
+  background: rgb(3, 34, 5);
+  background: rgb(0, 41, 2);
+
   margin-right: auto;
   margin-left: auto;
   width: 1000px;
@@ -55,6 +60,7 @@ code {
 }
 
 .assetCategory {
+  
   padding-left: 1%;
 }
 
@@ -66,6 +72,9 @@ code {
 
 .cryptoAssets {
   text-align: center;
+  font-size: 30px;
+  color: #3ac03a;
+
   border: 1px solid red;
   width: 1000px;
 }
@@ -73,21 +82,29 @@ code {
 .singleCrypto {
   height: 100px;
   width: 1000px;
+  color: #3ac03a;
 }
 
 .stockAssets {
   text-align: center;
+  font-size: 30px;
+  color: #16c78c;
+
   border: 1px solid red;
   width: 1000px;
 }
 
 .singleStock {
   height: 100px;
+  color: #16c78c;
+
   width: 1000px;
 }
 
 .assetUpdater {
   text-align: center;
+  background: rgb(3, 34, 5);
+
   border: 1px solid rgb(0, 4, 255);
   margin-top: 50px;
   height: 250px;
