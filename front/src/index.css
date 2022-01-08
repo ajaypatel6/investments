@@ -142,11 +142,25 @@ cross = vertical
 }
 
 .singleCrypto {
-  height: 100px;
-  /* width: 1000px; */
-  color: #3ac03a;
+  border: 1px solid rgb(0, 255, 242);
+
+  /* height: 100px; */
+  width: 1000px;
+  /* color: #3ac03a; */
+}
+/*  */
+.item-info header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.5px dotted rgb(0, 195, 255);
 }
 
+.menu-item {
+  display: grid;
+  max-width: 30rem;
+  margin-bottom: 0.5rem;
+}
+/*  */
 .stockAssets {
   text-align: center;
   font-size: 30px;
